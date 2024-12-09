@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+            
+            1.
+                let calculateArea =(a,b)=>{
+                return a+b
+                };
+                console.log(calculateArea(5,7))
+            
+            2.
+                let iseven=(num)=>{
+                    return num %2==0;
+                }
+                console.log(iseven(3,6));
+            
+            3.
+                function greetuser(name="mani",greeting="hii"){
+                    console.log(`${name},${greeting}`);
+                }    
+                greetuser()  
+
+            4.
+            
+                let number=fu[4,7,2,9,5];
+                number.sort(function(a,b){
+                    return a-b;
+                });
+                console.log(number);
+
+            5.
+                (function(){
+                    let sea="this is see";
+                    console.log("there is a big:"+sea);
+                    
+                })();   
+
+
+            ///////////////////
+            
+            1.
+
+                function addtwonum(no1 , no2){
+                    return no1 + no2;
+                }
+                console.log(addtwonum(5,6));
+                
+            2.
+                
+                function mani(){
+                    let num=3;
+                    if(num%2==0){
+                        console.log("even"); 
+                    }  
+                    else{
+                        console.log("odd"); 
+                    }  
+                    }
+                mani();
+
+            3.
+
+                function maxtwono(num1 , num2){
+                    return (num1 >num2)?num1 :num2;
+                }
+                console.log(maxtwono(22,73));
+
+            4.
+
+                function concadenate(str1 ,str2){
+                    return str1+str2;
+                }
+                console.log(concadenate("hello,","hii"));
+                
+            5.
+
+                function venki(){
+                    fact=1;
+                    val=5;
+                    for(i=val;i>=1;i--)
+                    fact=fact*i
+                    console.log(fact);
+                }
+                venki();
+           
+           6. 
+                function sd(){
+                let arr1=[1,2,3,4,5];
+                arr1.reverse();{
+                }
+                console.log(arr1);
+            }
+            sd()
+
+           7.
+             function fd(){
+                 let fname=[2,3,4,5,6]
+                    console.log(fname);     
+             }
+             fd()
+
+           8.
+                const array=[2,3,4,5,6,7];
+                const evenNum =array.filter((num)=>{  
+                    return num % 2=== 0;
+                  });
+                console.log(evenNum);
+            
+
+           9.
+                function celsiustofahrenheit(celsius){
+                    return(celsius *8/5)+32;
+                }
+                let celsius =50;
+                let fahrenheit =celsiustofahrenheit(celsius);
+                console.log(fahrenheit);
+                
+    </script>
+</body>
+</html>
